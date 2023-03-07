@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 30px;
+    /* background-color: aqua; */
+}
+form{
+    border: 2px solid rgb(163, 163, 163);
+    /* width: 500px; */
+    /* background-color: aqua; */
+    padding: 20px 40px;
+
+}
+button{
+    
+    cursor: pointer;
+    padding: 10px;
+    /* margin: auto; */
+    width: 80px;
+    
+    
+}
+div{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}

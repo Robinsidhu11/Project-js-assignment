@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 1500vh;
+    overflow-x: hidden;
+    background-color: rgb(65, 36, 36);
+}
+.bar{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 30px;
+    position: fixed;
+    top: 10px;
+}
+#innerbar{
+    /* background: linear-gradient(to right,rgb(130, 237, 130),rgb(184, 59, 59),rgb(216, 95, 216),rgb(140, 140, 220),grey,greenyellow,rgb(30, 78, 167)); */
+    /* width: 0%; */
+    background-color: rgb(117, 188, 11)   ;
+    height: 100%;
+    border-radius: 30px;
+}
